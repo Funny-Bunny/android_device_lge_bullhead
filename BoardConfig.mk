@@ -37,7 +37,7 @@ BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 TARGET_NO_BOOTLOADER := true
 
 # Inline kernel building
-TARGET_GCC_VERSION_ARM64 := 6.x
+TARGET_GCC_VERSION_ARM64 := 7.x
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
 TARGET_KERNEL_CONFIG := phasma_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
